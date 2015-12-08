@@ -9,6 +9,7 @@ build:
 	./build proj4 proj4
 	./build mgrs mgrs
 	./build crypto-js cryptojs
+	./build xml2js xml2js
 
 clean:
 	rm -f dist/*
