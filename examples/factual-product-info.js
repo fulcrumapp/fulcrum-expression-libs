@@ -1,10 +1,12 @@
 var credentials = {
-  key: 'API_KEY'
+  key: '',
+  secret: ''
 };
 
-ON('change', 'barcode', function(event) {
-  GETFACTUALPRODUCTINFO(credentials, $barcode, function(err, result) {
-    SETVALUE('product_info', result);
+ON('change', 'barcode', function (event) {
+  GETFACTUALPRODUCTINFO($barcode, function (error, response) {
+    if (!error) {
+      SETVALUE('product_info', response.body.product_name);
+    }
   });
 });
-
