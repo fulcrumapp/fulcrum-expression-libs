@@ -2,16 +2,3 @@
 
 f=function a(n){if(!r.object(n)&&!r.array(n)){throw new TypeError("Object.keys called on a non-object")}var e,f=[];for(e in n){if(t.call(n,e)){f.push(e)}}if(i){o(u,function(e){if(t.call(n,e)){f.push(e)}})}return f};e.exports=f})()},{foreach:6,is:7}],"@fulcrum/fulcrum-expression-oauth":[function(n,e,t){var r=n("ohauth");function o(n,e){var t=["url","consumerKey","consumerSecret"];var o=[];t.forEach(function(e){if(!(e in n)){o.push(e)}});if(o.length>0){e("Missing required parameter(s): "+o.join(", "));return}var i=(n.method||"GET").toUpperCase();var u=n.qs||{};var f=r.headerGenerator({consumer_key:n.consumerKey,consumer_secret:n.consumerSecret});n.headers=n.headers||{};n.headers["Authorization"]=f(i,n.url,u);ALERT(JSON.stringify(n));REQUEST(n,e)}e.exports=o},{ohauth:1}]},{},[])("@fulcrum/fulcrum-expression-oauth")});
 var oauth = module.exports;
-
-function GETFACTUALPRODUCTINFO(credentials, upc, callback) {
-  var options = {
-    consumerKey: credentials.key,
-    consumerSecret: credentials.secret,
-    url: 'http://api.v3.factual.com/t/products-cpg-nutrition',
-    qs: {
-      include_count: 't',
-      q: upc
-    }
-  };
-  oauth(options, callback);
-}
