@@ -2,7 +2,7 @@
 
 lib = ARGV[0]
 var = ARGV[1]
-out = ARGV[0]
+out = ARGV[0].include?('/') ? ARGV[0].split('/')[1] : ARGV[0]
 
 cmd = "node_modules/.bin/browserify -r '#{lib}' -s '#{var}' | node_modules/.bin/uglifyjs > dist/#{out}.js --mangle && echo '\\nvar #{var} = module.exports;' >> dist/#{out}.js"
 

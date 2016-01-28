@@ -7,7 +7,8 @@
   "author": "Zac McCormick <zac.mccormick@gmail.com> (http://github.com/zhm)",
   "license": "ISC",
   "dependencies": {
-    "crypto-js": "^3.1.5",
+    "@fulcrum/fulcrum-expression-oauth": "0.0.3",
+    "crypto-js": "3.1.5",
     "mgrs": "0.0.3",
     "moment": "^2.10.6",
     "proj4": "^2.3.12",
@@ -18,7 +19,7 @@
     "xml2js": "^0.4.15"
   },
   "devDependencies": {
-    "browserify": "^12.0.1",
-    "uglifyjs": "^2.4.10"
+    "browserify": "12.0.1",
+    "uglifyjs": "2.4.10"
   }
 }
