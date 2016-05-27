@@ -8,6 +8,7 @@
   "license": "ISC",
   "dependencies": {
     "@fulcrum/fulcrum-expression-oauth": "0.0.3",
+    "alasql": "^0.2.6",
     "crypto-js": "3.1.5",
     "mgrs": "0.0.3",
     "moment": "^2.10.6",
@@ -19,7 +20,8 @@
     "xml2js": "^0.4.15"
   },
   "devDependencies": {
-    "browserify": "12.0.1",
-    "uglifyjs": "2.4.10"
+    "browserify": "^13.0.1",
+    "uglify-js": "^2.6.2",
+    "uglifyjs": "^2.4.10"
   }
 }
