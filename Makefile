@@ -12,6 +12,7 @@ build:
 	./build mgrs mgrs
 	./build crypto-js cryptojs
 	./build xml2js xml2js
+	./build alasql alasql
 	./build @fulcrum/fulcrum-expression-oauth oauth
 
 clean:
