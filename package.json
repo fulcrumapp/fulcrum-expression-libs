@@ -10,6 +10,7 @@
     "@fulcrum/fulcrum-expression-oauth": "0.0.3",
     "alasql": "^0.2.6",
     "crypto-js": "3.1.5",
+    "geopoint": "^1.0.1",
     "mgrs": "0.0.3",
     "moment": "^2.10.6",
     "proj4": "^2.3.12",

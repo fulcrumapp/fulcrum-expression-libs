@@ -13,6 +13,7 @@ build:
 	./build crypto-js cryptojs
 	./build xml2js xml2js
 	./build alasql alasql
+	./build geopoint geopoint
 	./build @fulcrum/fulcrum-expression-oauth oauth
 
 clean:
