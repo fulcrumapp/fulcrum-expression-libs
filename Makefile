@@ -14,6 +14,7 @@ build:
 	./build xml2js xml2js
 	./build alasql alasql
 	./build geopoint geopoint
+	./build topojson-client topojson
 	./build @fulcrum/fulcrum-expression-oauth oauth
 
 clean:
