@@ -15,6 +15,7 @@ build:
 	./build alasql alasql
 	./build geopoint geopoint
 	./build topojson-client topojson
+	./build geolib geolib
 	./build @fulcrum/fulcrum-expression-oauth oauth
 
 clean:
