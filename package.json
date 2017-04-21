@@ -20,6 +20,7 @@
     "turf-distance": "^1.1.0",
     "turf-line-distance": "^1.0.2",
     "turf-tag": "^1.0.1",
+    "vcard-js": "^1.2.2",
     "xml2js": "^0.4.15"
   },
   "devDependencies": {

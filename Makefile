@@ -16,6 +16,7 @@ build:
 	./build geopoint geopoint
 	./build topojson-client topojson
 	./build geolib geolib
+	./build vcard-js vcard
 	./build @fulcrum/fulcrum-expression-oauth oauth
 
 clean:
