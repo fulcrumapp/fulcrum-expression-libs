@@ -18,6 +18,7 @@ build:
 	./build geolib geolib
 	./build vcard-js vcard
 	./build @fulcrum/fulcrum-expression-oauth oauth
+	./build open-location-code openlocationcode
 
 clean:
 	rm -f dist/*
