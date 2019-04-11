@@ -20,6 +20,7 @@ build:
 	./build @fulcrum/fulcrum-expression-oauth oauth
 	./build string-mask mask
 	./build game-of-life-logic life
+	./build open-location-code openlocationcode
 
 clean:
 	rm -f dist/*

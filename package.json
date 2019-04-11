@@ -15,6 +15,7 @@
     "geopoint": "^1.0.1",
     "mgrs": "0.0.3",
     "moment": "^2.10.6",
+    "open-location-code": "^1.0.3",
     "proj4": "^2.3.12",
     "string-mask": "^0.3.0",
     "topojson-client": "^2.1.0",
