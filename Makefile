@@ -18,6 +18,8 @@ build:
 	./build geolib geolib
 	./build vcard-js vcard
 	./build @fulcrum/fulcrum-expression-oauth oauth
+	./build string-mask mask
+	./build game-of-life-logic life
 
 clean:
 	rm -f dist/*
