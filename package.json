@@ -8,27 +8,27 @@
   "license": "ISC",
   "dependencies": {
     "@fulcrum/fulcrum-expression-oauth": "0.0.3",
-    "alasql": "^0.2.6",
-    "crypto-js": "3.1.5",
+    "alasql": "^1.7.2",
+    "crypto-js": "^4.0.0",
     "game-of-life-logic": "^1.0.0",
-    "geolib": "^2.0.22",
+    "geolib": "^3.3.1",
     "geopoint": "^1.0.1",
-    "mgrs": "0.0.3",
-    "moment": "^2.10.6",
+    "mgrs": "^1.0.0",
+    "moment": "^2.29.1",
     "open-location-code": "^1.0.3",
-    "proj4": "^2.3.12",
+    "proj4": "^2.7.2",
     "string-mask": "^0.3.0",
-    "topojson-client": "^2.1.0",
-    "turf": "^2.0.2",
-    "turf-distance": "^1.1.0",
-    "turf-line-distance": "^1.0.2",
-    "turf-tag": "^1.0.1",
+    "topojson-client": "^3.1.0",
+    "turf": "^3.0.14",
+    "turf-distance": "^3.0.12",
+    "turf-line-distance": "^3.0.12",
+    "turf-tag": "^3.0.12",
     "vcard-js": "^1.2.2",
-    "xml2js": "^0.4.15"
+    "xml2js": "^0.4.23"
   },
   "devDependencies": {
-    "browserify": "^13.0.1",
-    "uglify-js": "^2.6.2",
-    "uglifyjs": "^2.4.10"
+    "browserify": "^17.0.0",
+    "uglify-js": "^3.13.7",
+    "uglifyjs": "^2.4.11"
   }
 }
