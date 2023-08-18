@@ -8,12 +8,12 @@
   "license": "ISC",
   "dependencies": {
     "@fulcrum/fulcrum-expression-oauth": "0.0.3",
-    "alasql": "^1.7.2",
+    "alasql": "^4.1.4",
     "crypto-js": "^4.0.0",
     "game-of-life-logic": "^1.0.0",
     "geolib": "^3.3.1",
     "geopoint": "^1.0.1",
-    "mgrs": "^1.0.0",
+    "mgrs": "^2.0.0",
     "moment": "^2.29.1",
     "open-location-code": "^1.0.3",
     "proj4": "^2.7.2",
@@ -24,7 +24,7 @@
     "turf-line-distance": "^3.0.12",
     "turf-tag": "^3.0.12",
     "vcard-js": "^1.2.2",
-    "xml2js": "^0.4.23"
+    "xml2js": "^0.6.2"
   },
   "devDependencies": {
     "browserify": "^17.0.0",
