@@ -4,7 +4,7 @@ build:
 	mkdir -p dist
 	# ./build libname varname
 	./build moment moment
-	./build turf turf
+	./build @turf/turf turf
 	./build turf-tag turftag
 	./build turf-distance turfdistance
 	./build turf-line-distance turflinedistance
