@@ -8,7 +8,7 @@ build:
 	./build turf-tag turftag
 	./build turf-distance turfdistance
 	./build turf-line-distance turflinedistance
-	./build turf-buffer turfbuffer
+	./build @turf/buffer turfbuffer
 	./build proj4 proj4
 	./build mgrs mgrs
 	./build crypto-js cryptojs
