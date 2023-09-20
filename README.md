@@ -1,6 +1,6 @@
 # Fulcrum Expression Libraries
 
-A collection of libraries that are prepared for use in Fulcrum expressions.
+A collection of libraries that are prepared for use in Fulcrum expressions. The files in the `dist` directory are the scripts you can paste directly into Fulcrum Data Events scripts. At the bottom of each file is the variable name used to access the library.
 
 ## Adding new libraries
 
@@ -23,7 +23,6 @@ all: build
 
 build:
   mkdir -p dist
-  # ./build libname varname
   ./build moment moment
   ./build crypto-js cryptojs
 
