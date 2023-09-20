@@ -1,8 +1,7 @@
-all: build
+all: clean build
 
 build:
 	mkdir -p dist
-	rm -rf dist/*
 	# ./build libname varname
 	./build moment moment
 	./build @turf/turf turf
@@ -13,6 +12,16 @@ build:
 	./build @turf/buffer turfBuffer
 	./build @turf/points-within-polygon turfPointsWithinPolygon
 	./build @turf/centroid turfCentroid
+	./build @turf/length turfLength
+	./build @turf/midpoint turfMidpoint
+	./build @turf/nearest-point-on-line turfNearestPointOnLine
+	./build @turf/boolean-crosses turfBooleanCrosses
+	./build @turf/boolean-equal turfBooleanEqual
+	./build @turf/boolean-crosses turfBooleanCrosses
+	./build @turf/boolean-intersects turfBooleanIntersects
+	./build @turf/boolean-overlap turfBooleanOverlap
+	./build @turf/boolean-point-in-polygon turfBooleanPointInPolygon
+	./build @turf/boolean-within turfBooleanWithin
 	./build proj4 proj4
 	./build mgrs mgrs
 	./build crypto-js cryptojs
