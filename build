@@ -11,5 +11,4 @@ version_number = version_data["data"]["trees"][0]["name"].split("@").last
 
 cmd = "node_modules/.bin/browserify -r '#{lib}' -s '#{var}' | node_modules/.bin/uglifyjs > dist/#{out}.js --mangle --compress && echo '\\n// #{lib} #{version_number}\\nvar #{var} = module.exports;' >> dist/#{out}.js"
 
-puts cmd
 system cmd

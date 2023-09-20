@@ -2,7 +2,6 @@ all: clean build
 
 build:
 	mkdir -p dist
-	# ./build libname varname
 	./build moment moment
 	./build @turf/turf turf
 	./build @turf/tag turfTag
