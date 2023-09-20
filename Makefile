@@ -5,10 +5,13 @@ build:
 	# ./build libname varname
 	./build moment moment
 	./build @turf/turf turf
-	./build turf-tag turftag
-	./build turf-distance turfdistance
-	./build turf-line-distance turflinedistance
-	./build @turf/buffer turfbuffer
+	./build @turf/tag turfTag
+	./build @turf/area turfArea
+	./build @turf/distance turfDistance
+	./build @turf/line-distance turfLineDistance
+	./build @turf/buffer turfBuffer
+	./build @turf/points-within-polygon turfPointsWithinPolygon
+	./build @turf/centroid turfCentroid
 	./build proj4 proj4
 	./build mgrs mgrs
 	./build crypto-js cryptojs

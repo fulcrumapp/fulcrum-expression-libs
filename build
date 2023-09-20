@@ -1,10 +1,15 @@
 #!/usr/bin/env ruby
 
+require 'json'
+
 lib = ARGV[0]
 var = ARGV[1]
-out = ARGV[0].include?('/') ? ARGV[0].split('/')[1] : ARGV[0]
+out = ARGV[1]
 
-cmd = "node_modules/.bin/browserify -r '#{lib}' -s '#{var}' | node_modules/.bin/uglifyjs > dist/#{out}.js --mangle --compress && echo '\\nvar #{var} = module.exports;' >> dist/#{out}.js"
+version_data = JSON.parse(`yarn list --pattern #{ARGV[0]} --json`)
+version_number = version_data["data"]["trees"][0]["name"].split("@").last
+
+cmd = "node_modules/.bin/browserify -r '#{lib}' -s '#{var}' | node_modules/.bin/uglifyjs > dist/#{out}.js --mangle --compress && echo '\\n// #{lib} #{version_number}\\nvar #{var} = module.exports;' >> dist/#{out}.js"
 
 puts cmd
 system cmd

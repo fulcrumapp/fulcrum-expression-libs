@@ -9,6 +9,9 @@
   "dependencies": {
     "@fulcrum/fulcrum-expression-oauth": "0.0.3",
     "@turf/buffer": "^6.5.0",
+    "@turf/distance": "^6.5.0",
+    "@turf/line-distance": "^4.7.3",
+    "@turf/points-within-polygon": "^6.5.0",
     "@turf/turf": "^6.5.0",
     "alasql": "^4.1.4",
     "crypto-js": "^4.0.0",
@@ -21,9 +24,6 @@
     "proj4": "^2.7.2",
     "string-mask": "^0.3.0",
     "topojson-client": "^3.1.0",
-    "turf-distance": "^3.0.12",
-    "turf-line-distance": "^3.0.12",
-    "turf-tag": "^3.0.12",
     "vcard-js": "^1.2.2",
     "xml2js": "^0.6.2"
   },
