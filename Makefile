@@ -2,6 +2,7 @@ all: build
 
 build:
 	mkdir -p dist
+	rm -rf dist/*
 	# ./build libname varname
 	./build moment moment
 	./build @turf/turf turf
@@ -16,7 +17,6 @@ build:
 	./build mgrs mgrs
 	./build crypto-js cryptojs
 	./build xml2js xml2js
-	./build alasql alasql
 	./build geopoint geopoint
 	./build topojson-client topojson
 	./build geolib geolib
