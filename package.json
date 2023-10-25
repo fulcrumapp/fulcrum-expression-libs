@@ -22,7 +22,7 @@
     "@turf/nearest-point-on-line": "^6.5.0",
     "@turf/points-within-polygon": "^6.5.0",
     "@turf/turf": "^6.5.0",
-    "crypto-js": "^4.0.0",
+    "crypto-js": "^4.2.0",
     "game-of-life-logic": "^1.0.0",
     "geolib": "^3.3.1",
     "geopoint": "^1.0.1",
