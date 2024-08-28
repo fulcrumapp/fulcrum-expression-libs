@@ -1,0 +1,18 @@
+name: fulcrum-expression-libs
+id: ari:cloud:compass:9233df39-e597-47e6-ab42-e07f4d48709c:component/30d7834e-f829-4e6c-9b1b-cc6d8c1e56c5/59f0ca5e-4823-4185-8afd-9ad7042633e3
+description: Fulcrum Expression Libraries
+configVersion: 1
+typeId: LIBRARY
+ownerId: ari:cloud:identity::team/090a5c3f-4fdf-4ff7-83f7-328d0baca3ad
+fields:
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: https://github.com/fulcrumapp/fulcrum-expression-libs
+relationships:
+  DEPENDS_ON: []
+labels:
+  - language:makefile
+  - source:github
+customFields: null
